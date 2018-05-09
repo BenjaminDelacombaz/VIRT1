@@ -13,6 +13,16 @@ SI-T1a
 
 ### Machine virtuelle Debian
 
+1. Dans l'interface web VMware ESXI, cliquez sur stockage, puis sur datastore1
+2. Cliquez sur navigateur de banque de données
+3. Cliquez sur télécharger, choisissez l'ISO de Debian
+4. Dans l'interface web VMware ESXI, cliquez sur machines virtuelles
+5. Cliquez sur Créer/Enregistrer une machine virtuelle
+6. Choisissez de créer une machine virtuelle
+7. Entrez un nom, puis choisissez Linux comme famille d'OS, puis la version de votre Debian 
+8. Choisissez dans quelle datastore elle doit être stockée
+9. Pour le lecteur de CD/DVD, sélectionnez fichier ISO banque de de données et choisissez l'ISO de Debian précédemment ajouté
+10. Démarrez la machine et faites l'installation de votre Debian
 
 ### Ajouter un datastore
 
