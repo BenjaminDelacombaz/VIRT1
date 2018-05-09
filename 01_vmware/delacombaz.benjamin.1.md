@@ -39,7 +39,7 @@ SI-T1a
 4. Choisissez de créer un clone lié
 5. Choisissez un nom et un répertoire
 
-### Uplaud VMware Workstation -> ESXI
+### Upload VMware Workstation -> ESXI
 
 1. Dans VMware Workstation, faites un clique droit sur le clone précédemment créé, puis cliquez sur manage->upload
 2. Sélectionnez un autre VMware vSphere serveur
