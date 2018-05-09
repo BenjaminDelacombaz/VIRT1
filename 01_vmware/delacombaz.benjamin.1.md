@@ -48,6 +48,8 @@ SI-T1a
 
 ### VMware Tools
 
+1. Dans l'interface web VMware ESXI, faites un clique droit sur votre machine virtuelle puis SE invité->Installation de VMware Tools
+2. Sur windows, un 'cd' va être inséré, lancez l'autorun et attendez que les vmware tools soit installés
 
 ### Veeam Backup Free Edition
 
