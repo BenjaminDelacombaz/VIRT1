@@ -17,8 +17,13 @@ SI-T1a
 ### Ajouter un datastore
 
 
+
 ### Format OVA
 
+1. Dans VMware Workstation, cliquez sur la machine virtuelle concernée
+2. Cliquez sur le menu File->Export to OVF
+3. Choisissez l'endroit ou vous voulez enregistrer votre fichier
+4. Changez l'extension OVF par OVA
 
 ### Clone lié
 
