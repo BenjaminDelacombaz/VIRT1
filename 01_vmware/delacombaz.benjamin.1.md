@@ -10,6 +10,15 @@ SI-T1a
 
 ### Installation et configuration ESXI
 
+1. Créez une machine virtuelle avec 2 cartes réseau (NAT et Host Only)
+2. Montez l'ISO d'ESXI
+3. Démarrez la VM
+4. Choisissez ESXi installer
+5. Acceptez l'EULA
+6. Séléctionez le disque d'installation
+7. Séléctionez le clavier
+8. Entrez le mot de passe pour le compte root
+9. Une fois l'installation terminée, enlevez l'ISO
 
 ### Machine virtuelle Debian
 
@@ -34,14 +43,14 @@ SI-T1a
 6. Donnez lui un nom et choisissez quel disque utiliser.
 7. Sélectionnez utiliser tout l'espace disque et VMFS 5
 
+<div style="page-break-after: always;"></div>
+
 ### Format OVA
 
 1. Dans VMware Workstation, cliquez sur la machine virtuelle concernée
 2. Cliquez sur le menu File->Export to OVF
 3. Choisissez l'endroit ou vous voulez enregistrer votre fichier
 4. Changez l'extension OVF par OVA
-
-<div style="page-break-after: always;"></div>
 
 ### Clone lié
 
