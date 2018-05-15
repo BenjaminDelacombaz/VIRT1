@@ -41,6 +41,8 @@ SI-T1a
 3. Choisissez l'endroit ou vous voulez enregistrer votre fichier
 4. Changez l'extension OVF par OVA
 
+<div style="page-break-after: always;"></div>
+
 ### Clone lié
 
 1. Dans VMware Workstation, créez un snapshot de votre machine éteinte en faisant un clique droit sur la machine virtuelle puis snapshot->take a snapshot.
@@ -63,4 +65,18 @@ SI-T1a
 
 ### Veeam Backup Free Edition
 
-
+1. Créez une nouvelle machine virtuelle et installez windows server
+2. Uploadez l'iso de VeamBackup dans un de vos datastore puis montez l'iso sur votre serveur
+3. Lancez le setup.exe qui se trouve dans l'iso que vous avez monté
+4. Choisissez Veam Backup & Replication
+5. Laissez l'installation par défaut, si il manque certains modules, intallez les
+6. Une fois l'installation terminé, lancez l'application
+7. Choisissez le serveur localhost avec le port par défaut
+8. Ajoutez un serveur avec l'adresse IP de votre Hyperviseur
+9. Cliquez sur le serveur que vous venez d'ajouter puis sur la VM que vous voulez backuper
+10. Faites un clique droit sur la machine puis VeamZIP to C:\Backup
+11. Une fois le backup terminé, supprimez votre VM
+12. Cliquez sur l'onglet History puis sur Restore
+13. Selectionnez votre fichier de backup
+14. Cliquez sur votre VM puis sur restore (complètement)
+15. Choisissez de restaurer au même endroit
