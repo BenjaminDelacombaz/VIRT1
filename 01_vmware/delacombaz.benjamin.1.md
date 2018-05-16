@@ -78,7 +78,7 @@ SI-T1a
 2. Uploadez l'iso de VeamBackup dans un de vos datastore puis montez l'iso sur votre serveur
 3. Lancez le setup.exe qui se trouve dans l'iso que vous avez monté
 4. Choisissez Veam Backup & Replication
-5. Laissez l'installation par défaut, si il manque certains modules, intallez les
+5. Laissez l'installation par défaut, si il manque certains modules, installez les
 6. Une fois l'installation terminé, lancez l'application
 7. Choisissez le serveur localhost avec le port par défaut
 8. Ajoutez un serveur avec l'adresse IP de votre Hyperviseur
