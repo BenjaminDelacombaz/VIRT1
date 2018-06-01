@@ -54,7 +54,7 @@ SI-T1a
 1. Cliquez sur votre serveur depuis le menu Infrastructure puis sur new VM
 2. Choisissez votre OS
 3. Choisissez l'image ISO pécédemment uploadée
-4. Place the VM on this server
+4. Placer la VM sur le serveur
 5. Laissez les informations par défaut puis créez la VM
 6. Installez et configurez Debian
 
@@ -82,7 +82,7 @@ SI-T1a
 4. Ajoutez un disque de 100 GB à votre windows server 2012
 5. Installez StarWind ISCSI sur votre serveur
 6. Créez une nouvelle partition avec le disque de 100 GB
-7. Si le disque affiche qu'il est hors connection effectuez la procédure se trouvant à cette adresse: [http://www.erp-link.fr/windows-disque-connexion/](http://www.erp-link.fr/windows-disque-connexion/)
+7. Si le disque affiche qu'il est hors connexion effectuez la procédure se trouvant à cette adresse: [http://www.erp-link.fr/windows-disque-connexion/](http://www.erp-link.fr/windows-disque-connexion/)
 8. Connectez votre serveur windows à starwind sur la partition que vous venez d'ajouter
 9. Créez une nouvelle cible en cliquant sur Add target
 10. Donnez lui un nom (cluster-xenserver-storage)
